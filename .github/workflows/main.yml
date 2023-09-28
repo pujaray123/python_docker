@@ -34,4 +34,4 @@ jobs:
 
       - 
         name: docker run
-        run: docker run -v ./:./ busybox cat main.yml 
+        run: docker run -v ./:/root/ busybox cat /root/main.yml 
